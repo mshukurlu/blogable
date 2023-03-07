@@ -1,0 +1,27 @@
+{
+    "name": "mshukurlu/blogable",
+    "description": "A package provide start your blog project quickly!",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Murad Shukurlu",
+            "email": "shukurlu.murad@gmail.com"
+        }
+    ],
+    "require": {
+        "astrotomic/laravel-translatable": "^11.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mshukurlu\\Blogable\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mshukurlu\\Blogable\\Provider\\BlogableServiceProvider"
+            ]
+        }
+    }
+}
